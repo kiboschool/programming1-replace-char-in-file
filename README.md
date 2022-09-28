@@ -7,11 +7,11 @@ They seemed stressed, and so you asked to help out. After some brainstorming,
 you came up with the idea of making a program to automatically correct the
 spelling of the articles your friend writes.
 
-## Instructions
+## Steps
 
 Write a function `fix_file_spelling` to correct the spelling of a word in a file.
 
-Your function should take in as arguments the name of a file, a misspelled word,
+Your function should take in 3 arguments: the name of a file, a misspelled word,
 and its replacement. It should find all of the words in the file that match the
 misspelled word, replace them with the correct spelling, and then rewrite the
 file with the fully corrected version.
@@ -21,7 +21,7 @@ file with the fully corrected version.
 Test your function manually by running it for some specific files with
 misspellings and corrections. 
 
-## Extensions
+## Bonus Task
 
 * Add an optional boolean argument `no_write`, which makes the function print
     the fixed version to standard output instead of rewriting the file.
