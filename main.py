@@ -7,7 +7,6 @@ def fix_file_spelling(filename, wrong_word, correct_word):
         content = f.read()
 
     # Fix spelling
-    # Fix spelling
     fixed_content = content
 
     fixed_content = fixed_content.replace(wrong_word.lower(), correct_word.lower())
